@@ -14,9 +14,9 @@
         };
       stdenv.mkDerivation {
         name = "aerospace";
-        version = "0.9.0-Beta";
+        version = "0.17.1-Beta";
         src = fetchzip {
-          url = "https://github.com/nikitabobko/AeroSpace/releases/download/v0.9.0-Beta/AeroSpace-v0.9.0-Beta.zip";
+          url = "https://github.com/nikitabobko/AeroSpace/releases/download/v0.17.1-Beta/AeroSpace-v0.17.1-Beta.zip";
           hash = "sha256-UVNMjKPMUDuSKPMtLLBb3Lqu5Xocp9X99i+tPjktdbA=";
         };
 
