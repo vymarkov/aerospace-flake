@@ -2,7 +2,7 @@
   description = "An i3-like tiling window manager for macOS";
 
   inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
+    nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-24.05";
   };
 
   outputs = { self, nixpkgs }: {
